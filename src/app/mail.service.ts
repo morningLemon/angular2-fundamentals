@@ -3,7 +3,11 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MailService {
 
-  message = "You've got mail!";
+  messages = [
+    `Your now friends with John`,
+    `John liked your tweet`,
+    `You'll never believe waht John said ...`,
+  ];
 
   constructor() { }
 
